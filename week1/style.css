@@ -1,0 +1,83 @@
+body{
+	background: url("https://images.unsplash.com/photo-1471243042328-9687c4488fa3?ixlib=rb-0.3.5&ixid=eyJhcHBfaWQiOjEyMDd9&s=2fc93f8213ac1c0301b41e19a8d14cc1&auto=format&fit=crop&w=1492&q=80") fixed;
+	margin: 0px;
+	padding: 0px;
+	font-family: sans-serif;
+ 	line-height: 1.5;
+	font-size: 16px;
+}
+h1{
+	font-size: 50px;
+	color: #240659;
+}
+.heading img{
+    border-radius: 50%;
+}
+.heading img:hover{
+	border: 1px solid blue;
+}
+.heading{
+	background: #b4c9ea;
+	text-align: center;
+	border-bottom: 5px solid blue;
+	padding: 20px;
+}
+.heading p{
+	font-size: 22px;
+	color: #2b2a33;
+}
+h3, h2{
+	text-decoration: underline;
+	color: #fff;
+	padding-left: 20px;
+	margin:20px;
+}
+h2, li{
+	color: #fff;
+	padding-left: 20px;
+	margin:20px;
+}
+table {
+  border-collapse: collapse;
+  width: 90%;
+  margin-left: 50px;
+  box-shadow: 10px 10px 5px #3f3582;
+}
+td{
+	padding:10px;
+}
+tr:hover{
+	background:#bad9dd;
+	color: #465875;
+}
+tr{
+  background-color: #e0ecff;
+}
+.reference a{
+	color: #a9abcc;
+}
+.wrapper{
+	display: grid;
+	grid-template-columns:75% 20%;
+}
+.aside{
+	background: #e0ecff;
+	padding: 10px;
+	line-height: 0.5;
+	font-family: 'Shadows Into Light', cursive;
+	border: 3px solid blue;
+}
+.aside p:hover{
+	color: red;
+	padding-left: 2px;
+}
+.footer {
+  background: #3f3582;
+  text-align: center;
+  color: white;
+  padding: 20px;
+}
+.footer p{
+	font-size: 14px;
+	line-height: 0.5;
+}
