@@ -1,0 +1,124 @@
+body {
+  background-color: rgb(189, 192, 193);
+  font-family: sans-serif;
+  font-size: 16px;
+  line-height: 1.5;
+  margin: 0px;
+  padding: 0px;
+}
+#head {
+  height:60px;
+  width: 100%;
+  background: rgb(186, 20, 2);
+  color: white;
+  padding: 10px;
+  minimum-height: 70px;
+  postion: fixed;
+}
+#head a {
+  color: white;
+  text-decoration: none;
+  text-transform: uppercase;
+}
+#head li {
+  display: inline;
+  padding: 0 20px 0 20px;
+}
+#head h1 {
+  margin: 0px;
+  float: left;
+}
+#head li {
+  float: right;
+}
+#head li a:hover {
+  color: rgb(166, 192, 237);
+}
+.split {
+  color: rgb(166, 192, 237);
+}
+
+.container {
+  min-height: 500px;
+  background-image: url(http://www.turncyclesolutions.com/wp-content/uploads/2014/08/TCS-Blog-Siding.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  text-align: center;
+}
+.container h2 {
+  font-size: 70px;
+  padding-top: 130px;
+  margin-top: 0px;
+  text-align: center;
+  color: #fff;
+}
+.container p {
+  color: #fff;
+  font-size: 30px;
+}
+.abot {
+  background-color: rgb(44, 232, 116);
+  color: black;
+}
+#about {
+  width: auto;
+  background: rgb(179, 206, 194);
+  padding: 50px;
+}
+#about img {
+  border: 4px solid black;
+  float: left;
+  margin: 20px;
+}
+.services {
+  float: left;
+  text-align: center;
+  padding: 10px;
+  display: flex;
+}
+.services img {
+  width: 300px;
+}
+#services {
+  text-align: center;
+}
+h2 {
+  font-size: 40px;
+}
+#work-hed {
+  text-align: center;
+}
+
+#contact {
+  text-align: center;
+}
+
+.paint,
+.thatch {
+  background: rgb(215, 222, 232);
+  padding: 40px;
+}
+.build {
+  background: rgb(204, 213, 226);
+  padding: 40px;
+}
+.contact {
+  border: 2px solid black;
+}
+.contact tr {
+  background: rgb(63, 58, 59);
+  color: white;
+}
+.contact-form {
+  display: flex;
+}
+.scroll {
+  padding-left: 700px;
+}
+
+.footer {
+  background: rgb(84, 85, 89);
+  padding: 10px;
+  text-align: center;
+  color: white;
+}
