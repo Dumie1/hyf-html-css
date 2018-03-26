@@ -64,7 +64,7 @@ tr{
 	background: #e0ecff;
 	padding: 10px;
 	line-height: 0.5;
-	font-family: 'Shadows Into Light', cursive;
+	font-family: cursive;
 	border: 3px solid blue;
 }
 .aside p:hover{
