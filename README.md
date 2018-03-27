@@ -1,8 +1,8 @@
 # hyf-html-css
 Here you can find my homework hosted via Github<br>
 <ul>
-  <li>https://dumie1.github.io/hyf-html-css/week0/</li>
-  <li>https://dumie1.github.io/hyf-html-css/week1/</li>
+  <li>(application assignment)  https://dumie1.github.io/hyf-html-css/week0/</li>
+  <li>(my web resume)  https://dumie1.github.io/hyf-html-css/week1/</li>
 </ul>
 
 
