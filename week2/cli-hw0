@@ -1,7 +1,7 @@
 
 dumie@Dumie MINGW32 ~ (master)
-$ git init
-Reinitialized existing Git repository in C:/Users/dumie/.git/
+$ pwd
+/c/Users/dumie
 
 dumie@Dumie MINGW32 ~ (master)
 $ mkdir -p these/folders/are/just/for/fun
@@ -10,78 +10,21 @@ dumie@Dumie MINGW32 ~ (master)
 $ echo "test" > fun
 
 dumie@Dumie MINGW32 ~ (master)
-$ echo "test" >> fun
-
-dumie@Dumie MINGW32 ~ (master)
-$ wc -c fun
-10 fun
-
-dumie@Dumie MINGW32 ~ (master)
 $ echo "another test" >> fun
 
 dumie@Dumie MINGW32 ~ (master)
 $ wc -c fun
-23 fun
-
-dumie@Dumie MINGW32 ~ (master)
-$ ls -a
- ./
- ../
- .android/
- .bash_history
- .cache/
- .git/
- .gitconfig
- .IdeaIC2016.2/
- .vscode-insiders/
- AppData/
-'Application Data'@
- blank/
- cblankgreeting.txt
- Contacts/
- Cookies@
- Desktop/
- Documents/
- Downloads/
- Favorites/
- fun
- greeting.txt
- hyfcli15/
- Links/
-'Local Settings'@
- Music/
-'My Documents'@
- NetHood@
- NTUSER.DAT
- ntuser.dat.LOG1
- ntuser.dat.LOG2
- NTUSER.DAT{6cced2f1-6e01-11de-8bed-001e0bcd1824}.TM.blf
- NTUSER.DAT{6cced2f1-6e01-11de-8bed-001e0bcd1824}.TMContainer00000000000000000001.regtrans-ms
- NTUSER.DAT{6cced2f1-6e01-11de-8bed-001e0bcd1824}.TMContainer00000000000000000002.regtrans-ms
- ntuser.ini
- Pictures/
- PrintHood@
- Recent@
-'Saved Games'/
- Searches/
- SendTo@
-'Start Menu'@
- students/
- Templates@
- these/
- Tracing/
- Videos/
+18 fun
 
 dumie@Dumie MINGW32 ~ (master)
 $ cat fun
 test
-test
 another test
 
 dumie@Dumie MINGW32 ~ (master)
-$ echo -e "testanother\n test\n"
-testanother
- test
+$ echo -e "test\n another test\n"
+test
+ another test
 
 
 dumie@Dumie MINGW32 ~ (master)
@@ -89,3 +32,4 @@ $ touch fun.txt
 
 dumie@Dumie MINGW32 ~ (master)
 $
+
