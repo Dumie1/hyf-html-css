@@ -4,32 +4,88 @@ $ pwd
 /c/Users/dumie
 
 dumie@Dumie MINGW32 ~ (master)
-$ mkdir -p these/folders/are/just/for/fun
+$ mkdir commandlineHW2
 
 dumie@Dumie MINGW32 ~ (master)
-$ echo "test" > fun
+$ pwd
+/c/Users/dumie
 
 dumie@Dumie MINGW32 ~ (master)
-$ echo "another test" >> fun
+$ cd commandlineHW2/
 
-dumie@Dumie MINGW32 ~ (master)
-$ wc -c fun
-18 fun
+dumie@Dumie MINGW32 ~/commandlineHW2 (master)
+$ touch blank
 
-dumie@Dumie MINGW32 ~ (master)
-$ cat fun
-test
-another test
+dumie@Dumie MINGW32 ~/commandlineHW2 (master)
+$ echo "Hello" >> greetings.txt
 
-dumie@Dumie MINGW32 ~ (master)
-$ echo -e "test\n another test\n"
-test
- another test
+dumie@Dumie MINGW32 ~/commandlineHW2 (master)
+$ echo "Hello" >> greetings.txt
 
+dumie@Dumie MINGW32 ~/commandlineHW2 (master)
+$ echo "Hello" >> greetings.txt
 
-dumie@Dumie MINGW32 ~ (master)
-$ touch fun.txt
+dumie@Dumie MINGW32 ~/commandlineHW2 (master)
+$ echo "Hello" >> greetings.txt
 
-dumie@Dumie MINGW32 ~ (master)
+dumie@Dumie MINGW32 ~/commandlineHW2 (master)
+$ echo "Hello" >> greetings.txt
+
+dumie@Dumie MINGW32 ~/commandlineHW2 (master)
+$ pwd
+/c/Users/dumie/commandlineHW2
+
+dumie@Dumie MINGW32 ~/commandlineHW2 (master)
+$ cat greetings.txt > 1.txt
+
+dumie@Dumie MINGW32 ~/commandlineHW2 (master)
+$ cat greetings.txt > 2.txt
+
+dumie@Dumie MINGW32 ~/commandlineHW2 (master)
+$ cat greetings.txt > 3.txt
+
+dumie@Dumie MINGW32 ~/commandlineHW2 (master)
+$ cat greetings.txt > 4.txt
+
+dumie@Dumie MINGW32 ~/commandlineHW2 (master)
+$ cat greetings.txt > 5.txt
+
+dumie@Dumie MINGW32 ~/commandlineHW2 (master)
+$ echo "cat" >> pets.txt
+
+dumie@Dumie MINGW32 ~/commandlineHW2 (master)
+$ echo "dog" >> pets.txt
+
+dumie@Dumie MINGW32 ~/commandlineHW2 (master)
+$ echo "hamster" >> pets.txt
+
+dumie@Dumie MINGW32 ~/commandlineHW2 (master)
+$ pwd
+/c/Users/dumie/commandlineHW2
+
+dumie@Dumie MINGW32 ~/commandlineHW2 (master)
+$ pwd
+/c/Users/dumie/commandlineHW2
+
+dumie@Dumie MINGW32 ~/commandlineHW2 (master)
+$ echo "cat" >> commands.txt
+
+dumie@Dumie MINGW32 ~/commandlineHW2 (master)
+$ echo "ls" >> commands.txt
+
+dumie@Dumie MINGW32 ~/commandlineHW2 (master)
+$ echo "ls" >> commands.txt
+
+dumie@Dumie MINGW32 ~/commandlineHW2 (master)
+$ echo "pwd" >> commands.txt
+
+dumie@Dumie MINGW32 ~/commandlineHW2 (master)
+$ sort commands.txt pets.txt > lovelyCommands.txt
+
+dumie@Dumie MINGW32 ~/commandlineHW2 (master)
+$ r lovelyCommands.txt
+bash: r: command not found
+
+dumie@Dumie MINGW32 ~/commandlineHW2 (master)
 $
 
