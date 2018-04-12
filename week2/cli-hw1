@@ -1,189 +1,33 @@
-dumie@Dumie MINGW32 ~
-$ git init
-Initialized empty Git repository in C:/Users/dumie/.git/
-
-dumie@Dumie MINGW32 ~ (master)
-$ mkdir blank
-
-dumie@Dumie MINGW32 ~ (master)
-$ touch greeting.txt
-
-dumie@Dumie MINGW32 ~ (master)
-$ touch /c/blank/greeting.txt
-touch: cannot touch '/c/blank/greeting.txt': No such file or directory
-
-dumie@Dumie MINGW32 ~ (master)
-$ touch \c\blank\greeting.txt
-
-dumie@Dumie MINGW32 ~ (master)
-$ clear
-
 dumie@Dumie MINGW32 ~ (master)
 $ pwd
 /c/Users/dumie
 
 dumie@Dumie MINGW32 ~ (master)
-$ cd blank
+$ mkdir -p these/folders/are/just/for/fun
 
-dumie@Dumie MINGW32 ~/blank (master)
-$ pwd
-/c/Users/dumie/blank
+dumie@Dumie MINGW32 ~ (master)
+$ echo "test" > fun
 
-dumie@Dumie MINGW32 ~/blank (master)
-$ touch greeting.txt
+dumie@Dumie MINGW32 ~ (master)
+$ echo "another test" >> fun
 
-dumie@Dumie MINGW32 ~/blank (master)
-$ echo "Hello" > greeting.txt
+dumie@Dumie MINGW32 ~ (master)
+$ wc -c fun
+18 fun
 
-dumie@Dumie MINGW32 ~/blank (master)
-$ echo "Hello" > greeting.txt
+dumie@Dumie MINGW32 ~ (master)
+$ cat fun
+test
+another test
 
-dumie@Dumie MINGW32 ~/blank (master)
-$ echo "Hello" >> greeting.txt
+dumie@Dumie MINGW32 ~ (master)
+$ echo -e "test\n another test\n"
+test
+ another test
 
-dumie@Dumie MINGW32 ~/blank (master)
-$ echo "Hello" >> greeting.txt
 
-dumie@Dumie MINGW32 ~/blank (master)
-$ echo "Hello" >> greeting.txt
+dumie@Dumie MINGW32 ~ (master)
+$ touch fun.txt
 
-dumie@Dumie MINGW32 ~/blank (master)
-$ echo "Hello" >> greeting.txt
-
-dumie@Dumie MINGW32 ~/blank (master)
-$ echo -e "Hello\n" >> greeting.txt
-
-dumie@Dumie MINGW32 ~/blank (master)
-$ touch \c\blank\1.txt, 2.txt, 3.txt, 4.txt, 5.txt
-
-dumie@Dumie MINGW32 ~/blank (master)
-$ touch \c\blank\1.txt
-
-dumie@Dumie MINGW32 ~/blank (master)
-$ touch 2.txt
-
-dumie@Dumie MINGW32 ~/blank (master)
-$ touch 3.txt
-
-dumie@Dumie MINGW32 ~/blank (master)
-$ touch 1.txt
-
-dumie@Dumie MINGW32 ~/blank (master)
-$ touch 4.txt
-
-dumie@Dumie MINGW32 ~/blank (master)
-$ echo "Hello" >> 1.txt
-
-dumie@Dumie MINGW32 ~/blank (master)
-$ echo "Hello" >> 1.txt
-
-dumie@Dumie MINGW32 ~/blank (master)
-$ echo "Hello" >> 1.txt
-
-dumie@Dumie MINGW32 ~/blank (master)
-$ echo "Hello" >> 1.txt
-
-dumie@Dumie MINGW32 ~/blank (master)
-$ echo "Hello" >> 1.txt
-
-dumie@Dumie MINGW32 ~/blank (master)
-$ echo "Hello" >> 2.txt
-
-dumie@Dumie MINGW32 ~/blank (master)
-$ echo "Hello" >> 2.txt
-
-dumie@Dumie MINGW32 ~/blank (master)
-$ echo "Hello" >> 2.txt
-
-dumie@Dumie MINGW32 ~/blank (master)
-$ echo "Hello" >> 2.txt
-
-dumie@Dumie MINGW32 ~/blank (master)
-$ echo "Hello" >> 2.txt
-
-dumie@Dumie MINGW32 ~/blank (master)
-$ echo "Hello" >> 3.txt
-
-dumie@Dumie MINGW32 ~/blank (master)
-$ echo "Hello" >> 3.txt
-
-dumie@Dumie MINGW32 ~/blank (master)
-$ echo "Hello" >> 3.txt
-
-dumie@Dumie MINGW32 ~/blank (master)
-$ echo "Hello" >> 3.txt
-
-dumie@Dumie MINGW32 ~/blank (master)
-$ echo "Hello" >> 3.txt
-
-dumie@Dumie MINGW32 ~/blank (master)
-$ echo "Hello" >> 4.txt
-
-dumie@Dumie MINGW32 ~/blank (master)
-$ echo "Hello" >> 4.txt
-
-dumie@Dumie MINGW32 ~/blank (master)
-$ echo "Hello" >> 4.txt
-
-dumie@Dumie MINGW32 ~/blank (master)
-$ echo "Hello" >> 4.txt
-
-dumie@Dumie MINGW32 ~/blank (master)
-$ echo "Hello" >> 4.txt
-
-dumie@Dumie MINGW32 ~/blank (master)
-$ echo "Hello" >> 5.txt
-
-dumie@Dumie MINGW32 ~/blank (master)
-$ echo "Hello" >> 5.txt
-
-dumie@Dumie MINGW32 ~/blank (master)
-$ echo "Hello" >> 5.txt
-
-dumie@Dumie MINGW32 ~/blank (master)
-$ echo "Hello" >> 5.txt
-
-dumie@Dumie MINGW32 ~/blank (master)
-$ echo "Hello" >> 5.txt
-
-dumie@Dumie MINGW32 ~/blank (master)
-$ touch pets.txt
-
-dumie@Dumie MINGW32 ~/blank (master)
-$ echo "cat" >> pets.txt
-
-dumie@Dumie MINGW32 ~/blank (master)
-$ echo "dog" >> pets.txt
-
-dumie@Dumie MINGW32 ~/blank (master)
-$ echo "hamster" >> pets.txt
-
-dumie@Dumie MINGW32 ~/blank (master)
-$ touch commands.txt
-
-dumie@Dumie MINGW32 ~/blank (master)
-$ echo "cat" >> commands.txt
-
-dumie@Dumie MINGW32 ~/blank (master)
-$ echo "ls" >> commands.txt
-
-dumie@Dumie MINGW32 ~/blank (master)
-$ echo "pwd" >> commands.txt
-
-dumie@Dumie MINGW32 ~/blank (master)
-$ touch lovelyCommands.txt
-
-dumie@Dumie MINGW32 ~/blank (master)
-$ echo "cat" >> lovelyCommands.txt
-
-dumie@Dumie MINGW32 ~/blank (master)
-$ echo "ls" >> lovelyCommands.txt
-
-dumie@Dumie MINGW32 ~/blank (master)
-$ echo "pwd" >>lovelyCommands.txt
-
-dumie@Dumie MINGW32 ~/blank (master)
-$ ^C
-
-dumie@Dumie MINGW32 ~/blank (master)
-$ echo "pwd" >>lovelyCommands.txt
+dumie@Dumie MINGW32 ~ (master)
+$
