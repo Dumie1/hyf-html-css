@@ -1,6 +1,78 @@
+
+dumie@Dumie MINGW32 ~ (master)
+$ touch .new-file
+
+dumie@Dumie MINGW32 ~ (master)
+$ clear
+
 dumie@Dumie MINGW32 ~ (master)
 $ pwd
 /c/Users/dumie
+
+dumie@Dumie MINGW32 ~ (master)
+$ touch .new-file
+
+dumie@Dumie MINGW32 ~ (master)
+$ pwd
+/c/Users/dumie
+
+dumie@Dumie MINGW32 ~ (master)
+$ ls -a
+ ./
+ ../
+ .android/
+ .bash_history
+ .cache/
+ .config/
+ .git/
+ .gitconfig
+ .IdeaIC2016.2/
+ .newfile
+ .new-file
+ .node_repl_history
+ .ssh/
+ .viminfo
+ .vscode/
+ .vscode-insiders/
+ AppData/
+'Application Data'@
+ cblankgreeting.txt
+ commandlineHW2/
+ Contacts/
+ Cookies@
+ Desktop/
+ Documents/
+ Downloads/
+ Favorites/
+ fun
+ fun.txt
+ greeting.txt
+ hackyourfuture/
+ hyfcli15/
+ Links/
+'Local Settings'@
+ Music/
+'My Documents'@
+ myfirst/
+ NetHood@
+ NTUSER.DAT
+ ntuser.dat.LOG1
+ ntuser.dat.LOG2
+ NTUSER.DAT{6cced2f1-6e01-11de-8bed-001e0bcd1824}.TM.blf
+ NTUSER.DAT{6cced2f1-6e01-11de-8bed-001e0bcd1824}.TMContainer00000000000000000001.regtrans-ms
+ NTUSER.DAT{6cced2f1-6e01-11de-8bed-001e0bcd1824}.TMContainer00000000000000000002.regtrans-ms
+ ntuser.ini
+ Pictures/
+ PrintHood@
+ Recent@
+'Saved Games'/
+ Searches/
+ SendTo@
+'Start Menu'@
+ students/
+ Templates@
+ Tracing/
+ Videos/
 
 dumie@Dumie MINGW32 ~ (master)
 $ mkdir -p these/folders/are/just/for/fun
@@ -21,13 +93,15 @@ test
 another test
 
 dumie@Dumie MINGW32 ~ (master)
-$ echo -e "test\n another test\n"
-test
- another test
-
+$ echo -n "test" > fun
 
 dumie@Dumie MINGW32 ~ (master)
-$ touch fun.txt
+$ echo "another test" >> fun
+
+dumie@Dumie MINGW32 ~ (master)
+$ pwd
+/c/Users/dumie
 
 dumie@Dumie MINGW32 ~ (master)
 $
+
