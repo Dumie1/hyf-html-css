@@ -77,6 +77,21 @@ input{
   padding-right:20px;
   color:#ffffff;
 }
+.first_boxes_cont{
+  width: 100%;
+  height: auto;
+  /*flexbox style*/
+  display: flex;
+  flex-direction: row;
+  justify-content:space-around;
+  flex-flow: wrap;
+}
+.boxx{
+  width: 20%;
+  height: auto;
+  margin: 20px; 
+  box-sizing: border-box;
+}
 #first_boxes{
   padding: 30px;
   background-color: #f3f3f3;
@@ -153,5 +168,13 @@ footer{
   #newsletter form input[type="email"], .quote input, .quote textarea{
     width:100%;
     margin-bottom:5px;
+  }
+  .boxx{
+    width: 40%;
+  }
+}
+@media(max-width: 450px){
+  .boxx{
+    width: 100%;
   }
 }
